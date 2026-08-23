@@ -8,24 +8,57 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Start reading', link: '/aixp/01-xp-practices-carried-over' }
+      { text: 'Start reading', link: '/aixp/preface' }
     ],
 
     sidebar: [
       {
-        text: 'aiXP',
+        text: 'Front Matter',
         items: [
-          { text: 'Part 1 — XP Practices Carried Over', link: '/aixp/01-xp-practices-carried-over' },
-          { text: 'Part 2 — New Practices', link: '/aixp/02-new-practices' },
-          { text: 'Part 3 — DevOps/SRE Practices', link: '/aixp/03-devops-practices' },
-          { text: 'Part 4 — Testing Tiers', link: '/aixp/04-testing-tiers' },
-          { text: 'Part 5 — Versioning', link: '/aixp/05-versioning' },
-          { text: 'Part 6 — Comparison to AI-Native SDLC', link: '/aixp/06-comparison-ai-native-sdlc' },
+          { text: 'Preface', link: '/aixp/preface' },
+          { text: 'How to Read This Book', link: '/aixp/how-to-read' },
+        ]
+      },
+      {
+        text: 'Part I — Background',
+        items: [
+          { text: 'The Problem with Vibe Coding', link: '/aixp/intro-vibe-coding' },
+          { text: "XP's Original Bet", link: '/aixp/intro-xp-background' },
+          { text: 'What Changed When AI Joined the Team', link: '/aixp/intro-what-changed' },
+        ]
+      },
+      {
+        text: 'Part II — The Manifesto',
+        items: [
+          { text: 'Pillars and Rejection Criteria', link: '/aixp/manifesto' },
+        ]
+      },
+      {
+        text: 'Part III — The Practices',
+        items: [
+          { text: 'XP Practices Carried Over', link: '/aixp/01-xp-practices-carried-over' },
+          { text: 'New Practices, Native to aiXP', link: '/aixp/02-new-practices' },
+          { text: 'DevOps/SRE Practices Adopted', link: '/aixp/03-devops-practices' },
+          { text: 'Testing Strategy', link: '/aixp/04-testing-tiers' },
+          { text: 'Versioning and Release Identity', link: '/aixp/05-versioning' },
+        ]
+      },
+      {
+        text: 'Part IV — Context and Comparison',
+        items: [
+          { text: 'aiXP vs. the AI-Native SDLC', link: '/aixp/06-comparison-ai-native-sdlc' },
+          { text: 'Scaling Beyond the Solo Practitioner', link: '/aixp/scaling' },
+          { text: 'What aiXP Is Not', link: '/aixp/anti-patterns' },
+        ]
+      },
+      {
+        text: 'Back Matter',
+        items: [
           { text: 'Open Questions', link: '/aixp/open-questions' },
           { text: 'Appendix — Original 12 XP Practices', link: '/aixp/appendix-original-12' },
-          { text: 'Bibliography', link: '/aixp/bibliography' }
+          { text: 'Bibliography', link: '/aixp/bibliography' },
         ]
-      }
+      },
     ],
 
     socialLinks: []
