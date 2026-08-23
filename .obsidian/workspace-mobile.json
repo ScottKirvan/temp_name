@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/aixp/03.02-new-practices.md",
+                "file": "docs/aixp/00.01-preface.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03.02-new-practices"
+              "title": "00.01-preface"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "de70096b9f5babc3",
   "lastOpenFiles": [
+    "docs/aixp/03.02-new-practices.md",
     "docs/aixp/appendix-original-12.md",
     "docs/aixp/05.03-bibliography.md",
     "docs/aixp/05.02-appendix-original-12.md",
@@ -193,7 +194,6 @@
     "docs/aixp/03.05-versioning.md",
     "docs/aixp/03.04-testing-tiers.md",
     "docs/aixp/03.03-devops-practices.md",
-    "docs/aixp/03.02-new-practices.md",
     "docs/aixp/03.01-xp-practices-carried-over.md",
     "docs/aixp/02.01-manifesto.md",
     "docs/aixp/01.03-what-changed.md",
