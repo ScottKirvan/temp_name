@@ -1,4 +1,40 @@
-# CLAUDE.md — temp_name
+# CLAUDE.md — temp_name (aiXP)
+
+## Project
+
+A writing project, not a codebase. The deliverable is a paper/talk/post/book (format
+undecided) on **aiXP** — a proposed software engineering discipline for AI-assisted
+development, grounded in the author's daily practice pairing with Claude Code on real
+projects.
+
+## Key Files and Structure
+
+- `docs/` — VitePress project root; run with `npm run docs:dev` from inside `docs/`
+- `docs/.vitepress/config.mts` — nav/sidebar config; update when adding pages
+- `docs/aixp/` — primary content (`01`–`06` are the methodology; also open-questions,
+  appendix, bibliography)
+- `docs/index.md` — site landing page
+- `notes/` — scratch/draft material (e.g. `notes/aiXP-draft.md`)
+- `_claude-context.md` — BojuBot's persistent memory across sessions (Obsidian plugin)
+
+## Build and Deploy
+
+- Dev server: `cd docs && npm run docs:dev`
+- Production build: `cd docs && npm run docs:build`
+- Deployed to GitHub Pages via `.github/workflows/docs.yml` on push to `main`
+  (uses reusable workflow at `ScottKirvan/.github`)
+- Live URL: `https://www.scottkirvan.com/temp_name/`
+
+## Known Gotchas
+
+- `base: '/temp_name/'` in `docs/.vitepress/config.mts` is load-bearing for GitHub
+  Pages asset resolution. Do not remove it — without it, CSS/JS 404 on the deployed
+  site (the page loads but has no stylesheet).
+- Obsidian vault backup commits run automatically and push directly to `main`. They
+  have previously removed the `base` setting accidentally. If the deployed site loses
+  its stylesheet, check whether a vault backup commit touched `config.mts`.
+- `package.json` name is still `"scootergittemplate-docs"` — cosmetic, doesn't affect
+  builds, but worth updating when renaming the repo.
 
 ## Keeping This File Current
 
