@@ -1,4 +1,4 @@
-# CLAUDE.md — ScooterGitTemplate
+# CLAUDE.md — temp_name
 
 ## Keeping This File Current
 
