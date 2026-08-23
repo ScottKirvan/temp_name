@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "temp_name",
-  description: "TODO: Replace with your project description.",
+  description: "TODO -  Replace with your project description.",
   base: '/temp_name/',
   themeConfig: {
     nav: [
