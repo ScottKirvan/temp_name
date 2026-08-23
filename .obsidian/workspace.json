@@ -11,14 +11,10 @@
             "id": "bada955b74d34c58",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/aixp/appendix-original-12.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "appendix-original-12"
+              "title": "New tab"
             }
           }
         ]
@@ -210,6 +206,34 @@
   },
   "active": "1b9766c4a7a78081",
   "lastOpenFiles": [
+    "docs/aixp/sedRURdtI",
+    "docs/aixp/sedkbfJLX",
+    "docs/aixp/sedeOr7UZ",
+    "docs/aixp/sedG2Zsbc",
+    "docs/aixp/sedxKQedZ",
+    "docs/aixp/sedKxEFqI",
+    "docs/aixp/sed6HAitP",
+    "docs/aixp/sedYvPxGd",
+    "docs/aixp/sedrPbKLi",
+    "docs/aixp/sedeHzH0t",
+    "docs/aixp/sedCWYS7a",
+    "docs/aixp/05.03-bibliography.md",
+    "docs/aixp/05.02-appendix-original-12.md",
+    "docs/aixp/05.01-open-questions.md",
+    "docs/aixp/04.03-anti-patterns.md",
+    "docs/aixp/04.02-scaling.md",
+    "docs/aixp/04.01-comparison-ai-native-sdlc.md",
+    "docs/aixp/03.05-versioning.md",
+    "docs/aixp/03.04-testing-tiers.md",
+    "docs/aixp/03.03-devops-practices.md",
+    "docs/aixp/03.02-new-practices.md",
+    "docs/aixp/03.01-xp-practices-carried-over.md",
+    "docs/aixp/02.01-manifesto.md",
+    "docs/aixp/01.03-what-changed.md",
+    "docs/aixp/01.02-xp-background.md",
+    "docs/aixp/01.01-vibe-coding.md",
+    "docs/aixp/00.02-how-to-read.md",
+    "docs/aixp/00.01-preface.md",
     "docs/aixp/anti-patterns.md",
     "docs/aixp/scaling.md",
     "docs/aixp/manifesto.md",
@@ -217,22 +241,6 @@
     "docs/aixp/intro-xp-background.md",
     "docs/aixp/intro-vibe-coding.md",
     "docs/aixp/how-to-read.md",
-    "docs/aixp/preface.md",
-    "docs/aixp/01-xp-practices-carried-over.md",
-    "docs/aixp/02-new-practices.md",
-    "docs/aixp/appendix-original-12.md",
-    "CLAUDE.md.tmp.25424.1787454625505",
-    "docs/aixp/open-questions.md",
-    "docs/aixp/bibliography.md",
-    "docs/aixp/06-comparison-ai-native-sdlc.md",
-    "docs/aixp/05-versioning.md",
-    "docs/aixp/04-testing-tiers.md",
-    "docs/aixp/03-devops-practices.md",
-    "docs/index.md",
-    "_claude-context.md",
-    "_claude-context.md.tmp.61248.1787452949880",
-    "docs/aixp",
-    "notes/aiXP-draft.md",
-    "CLAUDE.md"
+    "docs/aixp/preface.md"
   ]
 }
