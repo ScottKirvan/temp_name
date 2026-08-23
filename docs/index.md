@@ -2,53 +2,26 @@
 layout: home
 
 hero:
-  name: "temp_name"
-  text: "TODO - Short project headline"
-  tagline: TODO - Replace with your project tagline.
+  name: "aiXP"
+  text: "Extreme Programming for Human-AI Teams of 1 to N"
+  tagline: "Working draft — brainstorm stage."
   actions:
     - theme: brand
-      text: View on GitHub
-      link: https://github.com/ScottKirvan/temp_name
+      text: Start reading
+      link: /aixp/01-xp-practices-carried-over
     - theme: alt
-      text: Discord
-      link: https://discord.gg/TN6XJSNK5Y
+      text: Bibliography
+      link: /aixp/bibliography
 
 features:
-  - icon: 🚀
-    title: Feature One
-    details: TODO - Describe your first key feature here.
-
-  - icon: 🛠️
-    title: Feature Two
-    details: TODO - Describe your second key feature here.
-
-  - icon: 📖
-    title: Feature Three
-    details: TODO - Describe your third key feature here.
+  - title: Premise
+    details: Extreme Programming was built on one bet — tight feedback loops beat upfront certainty. AI makes that bet stronger, not weaker, and shifts the cost of software from writing code to verifying, bounding, and integrating it.
+  - title: XP practices, modified
+    details: Pairing, refactoring, sustainable pace, on-site customer, and more — carried over from classic XP and re-aimed at where AI actually changes the cost structure.
+  - title: New practices, native to aiXP
+    details: Spec-first prompting, domain gap surfacing, agent role topology, executive code review, and more — practices with no XP-era analog.
 ---
 
-<!-- Begin Sponsors -->
+## A note on intent
 
-<div align="center" style="margin-top: 3rem; margin-bottom: 2rem;">
-<h2>Sponsors</h2>
- <a href="https://www.sabelhawk.com/" target="_blank">
-    <img src="/sabelhawk_dark.png" alt="Sabelhawk Studios" width="300" class="sponsor-logo dark-only" />
-    <img src="/sabelhawk_lite.png" alt="Sabelhawk Studios" width="300" class="sponsor-logo light-only" />
-  </a>
-  <br><br>
-  <p style="font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem;">
-    If you're enjoying this project, or it's saved you some time, consider<br>buying me a coffee or becoming a sponsor — it helps keep the<br> projects going.
-  </p><br>
-  <div style="display: flex; gap: 12px; justify-content: center; align-items: center; flex-wrap: wrap;">
-  <a href="https://ko-fi.com/ScottKirvan" target="_blank">
-    <img src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" alt="Support on Ko-fi"  width="160"  />
-  </a> &nbsp; &nbsp;
-  <a href="https://github.com/sponsors/ScottKirvan" target="_blank">
-    <img src="https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?style=for-the-badge&logo=github" height="36" />
-  </a>
-  </div>
-  <br>
-Thank you! Supporting indie devs makes a real difference.
-</div>
-
-<!-- End Sponsors -->
+A recurring thread in developing this has been how few working engineers seem to have a coherent model of practices like regression suite maintenance, tiered release strategy, or versioning discipline — not because these are obscure, but because they're rarely taught as a connected system, and AI tooling is what now makes running that full system affordable at small scale. Part of the goal here isn't just documenting one practitioner's method — it's making practices that used to require org-scale headcount teachable to individuals and small teams who now have the tooling to actually run them.
