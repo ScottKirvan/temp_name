@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "e51070e6e0edddc0",
+    "type": "split",
+    "children": [
+      {
+        "id": "2aebbc3e81e19812",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de70096b9f5babc3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d633bac53ee31c88",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "88d13444a7af8927",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "017466895686c71e",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "fe28b37357acd7ad",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "8507160f5dcafc10",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "97cf343a2622dd7e",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "4c57342217d99168",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "9249d8c4b4d75bd4",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "a97026b9a5cc8190",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "cea1ebba8d8651d9",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "8f72adb1aab1b309",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "de70096b9f5babc3",
+  "lastOpenFiles": [
+    "docs/aixp/appendix-original-12.md",
+    "docs/aixp/05.03-bibliography.md",
+    "docs/aixp/05.02-appendix-original-12.md",
+    "docs/aixp/05.01-open-questions.md",
+    "docs/aixp/04.03-anti-patterns.md",
+    "docs/aixp/04.02-scaling.md",
+    "docs/aixp/04.01-comparison-ai-native-sdlc.md",
+    "docs/aixp/03.05-versioning.md",
+    "docs/aixp/03.04-testing-tiers.md",
+    "docs/aixp/03.03-devops-practices.md",
+    "docs/aixp/03.02-new-practices.md",
+    "docs/aixp/03.01-xp-practices-carried-over.md",
+    "docs/aixp/02.01-manifesto.md",
+    "docs/aixp/01.03-what-changed.md",
+    "docs/aixp/01.02-xp-background.md",
+    "docs/aixp/01.01-vibe-coding.md",
+    "docs/aixp/00.02-how-to-read.md",
+    "docs/aixp/00.01-preface.md",
+    "/docs/aixp",
+    "/docs",
+    "docs/aixp/01-xp-practices-carried-over.md",
+    "docs/public/sabelhawk_lite.png",
+    "docs/public/sabelhawk_dark.png",
+    "docs/aixp/scaling.md",
+    "docs/aixp/preface.md",
+    "docs/aixp/open-questions.md",
+    "docs/aixp/manifesto.md",
+    "docs/aixp/intro-xp-background.md",
+    "docs/aixp/intro-what-changed.md",
+    "docs/aixp/intro-vibe-coding.md",
+    "assets/media/logo.jpg",
+    "docs/package.json",
+    "docs/package-lock.json",
+    "app.json",
+    "docs/public",
+    "docs/aixp",
+    "notes",
+    "assets/media",
+    "assets"
+  ]
+}

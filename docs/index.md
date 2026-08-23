@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: Start reading
-      link: /aixp/00.01-preface
+      link: /aixp/01-xp-practices-carried-over
     - theme: alt
       text: Bibliography
-      link: /aixp/05.03-bibliography
+      link: /aixp/bibliography
 
 features:
   - title: Premise
