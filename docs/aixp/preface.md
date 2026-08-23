@@ -1,0 +1,17 @@
+# Preface
+
+This book is a practitioner's account, not a research paper.
+
+The practices described here emerged from roughly a year of daily work pairing with Claude Code on real production projects — mobile apps, developer tooling, automation systems. None of it was invented in advance and then tested. All of it was observed in practice, named after the fact, and cross-checked against existing engineering literature where a prior concept already covered it better.
+
+That distinction matters. Where a practice here represents something tested repeatedly in production, I'll say so. Where it's adapted by analogy from Lean, SRE, or Agile lineages, I'll name the source. Where it's a working hypothesis that I believe is right but haven't validated beyond my own experience, I'll flag it as speculative. The discipline doesn't improve if the epistemic status of its claims is obscured.
+
+**What this is not:** a claim that AI makes software engineering easier, or that any particular tool is the answer. The central argument is the opposite — that AI makes the *discipline* of software engineering more important, not less, because the cost of undisciplined generation is now paid at scale rather than at the pace of a single human typing.
+
+**Who this is for:** working engineers who are already using AI tools and want a coherent model of how to use them without accumulating invisible debt. It assumes you can read code, have shipped software before, and are skeptical of hype. It does not assume you've read Kent Beck, though it will help.
+
+**A note on format:** this started as a brainstorm, became a set of notes, and is now somewhere between a long essay and a short book. The practices are presented as a system — they reinforce each other in ways that only become clear once several are in place simultaneously — but the individual chapters can be read independently if you're looking for something specific.
+
+---
+
+[Next: How to Read This Book →](./how-to-read)
