@@ -11,11 +11,40 @@ projects.
 
 - `docs/` — VitePress project root; run with `npm run docs:dev` from inside `docs/`
 - `docs/.vitepress/config.mts` — nav/sidebar config; update when adding pages
-- `docs/aixp/` — primary content (`01`–`06` are the methodology; also open-questions,
-  appendix, bibliography)
+- `docs/aixp/` — primary content, filenames use a `PP.SS-slug.md` prefix (Part.Section)
+  that encodes reading order and must stay in sync with the sidebar in `config.mts`:
+  - `00.0x` — Front Matter (preface, how to read)
+  - `01.0x` — Part I: Background (vibe coding, XP background, what changed)
+  - `02.0x` — Part II: The Manifesto
+  - `03.0x` — Part III: The Practices (XP carryover, new practices, DevOps/SRE,
+    testing, versioning)
+  - `04.0x` — Part IV: Context and Comparison (AI-native SDLC, scaling, anti-patterns)
+  - `05.0x` — Back Matter (open questions, appendix, bibliography)
 - `docs/index.md` — site landing page
 - `notes/` — scratch/draft material (e.g. `notes/aiXP-draft.md`)
-- `_claude-context.md` — BojuBot's persistent memory across sessions (Obsidian plugin)
+- `app.json` — currently an empty placeholder (`{}`); purpose not yet decided
+- `_claude-context.md` — BojuBot's persistent memory across sessions (Obsidian plugin).
+  Read it alongside this file — it carries the editorial/voice guardrails below plus
+  any newer session notes; treat it as the source of truth if the two ever diverge and
+  reconcile them back into this file.
+
+## Voice and Editorial Guardrails
+
+- Direct, technically precise — no hype language ("revolutionary," "unlock," etc.)
+- Vibe coding is not software engineering: treat this as settled, do not soften it
+- Distinguish always between: (a) tested in production, (b) adapted by analogy,
+  (c) speculative
+- No invented examples, case studies, or fabricated citations
+- Every borrowed concept (Lean, SRE, Kanban, XP) gets attributed to its origin
+- Open questions live in `docs/aixp/05.01-open-questions.md` — surface them, don't
+  resolve unilaterally
+
+## Standing Positions (settled — don't re-litigate)
+
+- TDD is load-bearing in aiXP, not merely one practice among many
+- Agent Role Topology stays flat by design
+- Executive code review is context-free by design ("make the code speak")
+- aiXP is a practitioner-scale discipline within the broader AI-native movement
 
 ## Build and Deploy
 
