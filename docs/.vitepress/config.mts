@@ -6,6 +6,9 @@ export default defineConfig({
   base: '/temp_name/',
 
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Start reading', link: '/aixp/00.01-preface' }
