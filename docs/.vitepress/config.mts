@@ -59,9 +59,6 @@ export default defineConfig({
           { text: 'Bibliography', link: '/aixp/05.03-bibliography' },
         ]
       },
-search: {
-      provider: 'local'
-    },
     ],
 
     socialLinks: []
